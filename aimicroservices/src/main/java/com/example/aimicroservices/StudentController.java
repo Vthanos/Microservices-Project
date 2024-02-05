@@ -10,7 +10,7 @@ public class StudentController {
 
     @GetMapping("/hello")
     public String hello(Model model) {
-        model.addAttribute("message", "Hello, Spring MVC!");
+        model.addAttribute("message", "Hello, Spring MVC hiii!");
         return "hello-page";
     }
 }
